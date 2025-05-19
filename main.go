@@ -22,8 +22,7 @@ import (
 // --- Configuration ---
 const (
 	// !!! REPLACE WITH YOUR ACTUAL API ENDPOINT !!!
-	// apiEndpoint             = "http://localhost:3000/api/sysutil"
-	apiEndpoint				= "https://sysutil-admin.netlify.app/api/sysutil"
+	apiEndpoint             = "http://localhost:3000/api/sysutil"
 	checkIntervalMinutes    = 15
 	stateFile               = "system_monitor_last_state.json"
 	maxAllowedSleepMinutes  = 10
